@@ -1,0 +1,1 @@
+python run_classifier.py --task_name=my --do_predict=true --data_dir=. --vocab_file=./FinBERT_L-12_H-768_A-12_tf/vocab.txt --bert_config_file=./FinBERT_L-12_H-768_A-12_tf/bert_config.json --init_checkpoint=./FinBERT_L-12_H-768_A-12_tf/bert_model.ckpt --max_seq_length=64 --output_dir=./predict_emotion
